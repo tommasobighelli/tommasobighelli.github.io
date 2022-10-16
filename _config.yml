@@ -4,7 +4,7 @@ title                    : "Tommaso Bighelli"
 title_separator          : "-"
 name                     : &name "Tommaso Bighelli"
 description              : &description "PhD Candidate, Halle Institute for Economic Research"
-url                      : https://tommasobighelli.github.io
+url                      : https://tommasobighelli.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tommasobighelli.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
