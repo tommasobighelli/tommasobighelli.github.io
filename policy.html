@@ -1,1 +1,280 @@
+<!-- Large part of this script is taken from the nice website of Bruno Conte who I thank! -->
+<!DOCTYPE html>
 
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  
+  
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+<title>Tommaso Bighelli - Policy Works</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+</style>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tommaso Bighelli</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="research.html">Research</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="policy.html">Policy Works</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="talks.html">Talks</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+            <ul class="nav navbar-nav">
+        <li>
+  <a href="data.html">Data</a>
+</li>
+      </ul>
+    </ul>
+    <ul class="nav navbar-nav">
+      <li>
+
+</li>
+    </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+<!-- END OF STANDARD PART (MENUS ETC.)-->
+
+<div class="fluid-row" id="header">
+  <br>
+<br>
+  <font size="+3"><p align="center">Research</p></font>
+<!--<h1 class="title toc-ignore"> <br> </h1>-->
+</div>
+<!-- </div> -->
+
+
+<!--<p><link rel="stylesheet" href="styles.css" type="text/css"> <img src="images/cae_network.png" style="width:40%; margin-right: 20px; margin-top: 20px" align="center"> <img src="images/all_africa.png" style="width:40%; margin-right: 20px; margin-top: 20px" align="center"></p>-->
+<p><br></p>
+
+  
+<br>
+    <ul style=“list-style-type:square”>
+<li>  <h5 class="title toc-ignore" align="left"><b><a href="" target="_blank">COVID-19 Pandemic, State Aid and Firm Productivity</a></b></h5></li>
+<font size="-1"><em>with Tibor Lalinsky and Juuso Vanhala ,  January 2022</font>
+
+     <p align="justify"> <a href="https://helda.helsinki.fi/bof/bitstream/handle/123456789/18273/BoF_DP_2201.pdf?sequence=1"> Bank of Finland Research Discussion Paper 1/2022, </a> <a href="https://www.comp-net.org/fileadmin/_compnet/user_upload/Policy_Brief_14th_edition_Bighelli_Lalinsky_Covid_support_and_productivity_Micro_based_evidence.pdf"> CompNet Policy Brief, </a> <a href="https://voxeu.org/article/covid-19-government-support-may-have-not-been-unproductively-distributed-feared"> VoxEu, </a> <a href="https://www.suerf.org/suer-policy-brief/42471/covid-19-government-subsidies-and-their-implications-for-pandemic-labour-productivity"> Suerf Policy Brief </a> <br>
+<br>
+      </ul>
+ <br>
+<br> 
+<br>
+<h4 class="title toc-ignore" align="left">Work in Progress</h4>
+
+  
+    
+<br>
+    <ul style=“list-style-type:square”>
+<li>  <h5 class="title toc-ignore" align="left"><b>Global Firms, Service Offshoring and Innovation</a></b></h5></li>
+<!-- <h5 class="title toc-ignore" align="left"></h5> -->
+
+
+  </ul> 
+ <br>
+<br> 
+<br>      
+      
+<h4 class="title toc-ignore" align="left">Policy Works</h4>
+
+  
+    
+<br>
+    <ul style=“list-style-type:square”>
+<li>  <h5 class="title toc-ignore" align="left"><b><a href="https://www.comp-net.org/fileadmin/_compnet/user_upload/Documents/Productivity_Report_FINAL-.pdf" target="_blank">2020 Firm Productivity Report</a></b></h5></li>
+<!-- <h5 class="title toc-ignore" align="left"></h5> -->
+<font size="-1"><em>CompNet (2020)</font><br><br>
+
+  </ul> 
+ <br>
+<br> 
+<br>
+<h4 class="title toc-ignore" align="left">Pre doctoral work</h4>
+<br>
+  <h5 class="title toc-ignore" align="left"><b>An Empirical Characterization of The Effects of Government Expenditure on Inequality</a></b></h5>
+<!-- <h5 class="title toc-ignore" align="left"></h5> -->
+<font size="-1"><em>Master Thesis at Autonomous University of Barcelona (advisor: Luca Gambetti), available upon request</font><br>
+  </p>
+
+  
+  
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
