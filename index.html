@@ -77,6 +77,15 @@ h6 {
 .table th:not([align]) {
   text-align: left;
 }
+.box {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: #e0e0e0;
+      text-align: center;
+      line-height: 100px;
+      margin: 5px;
+    }
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -263,7 +272,9 @@ Kleine Märkerstraße 8, 06108 Halle (Saale), Germany<br>
 <br>
 
 </div>
-
+ <div class="box">PRIMO</div>
+  <div class="box">SECONDO</div>
+  <div class="box">TERZONE</div>
 <script> // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
