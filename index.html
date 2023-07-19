@@ -156,6 +156,27 @@ body {
   padding-top: 46px;
   margin-top: -46px;
 }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Styles */
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  
+  .column {
+    padding: 10px;
+  } 
 </style>
 
 <div class="container-fluid main-container">
